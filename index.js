@@ -2,14 +2,14 @@
  * Selects the element with the id 'main-heading' and changes its text content to 'DOM Manipulation Challenge'.
  */
 function changeHeadingText() {
-  document.getElementById('main-Heading').textContent='DOM Manipulation Challenge';
+  document.getElementById('main-heading').textContent='DOM Manipulation Challenge';
 }
 
 /**
  * Selects the element with the id 'box-to-modify' and changes its background color to 'lightblue'.
  */
 function changeBoxColor() {
-  document.getElementById('box-to-modify;).style.backgroundColor='lightblue';
+  document.getElementById('box-to-modify').style.backgroundColor='lightblue';
 }
 
 /**
@@ -18,7 +18,7 @@ function changeBoxColor() {
 function addNewItem() {
   const li=document.createElement('li');
   li.textContent='New Item';
-  document.getElementById('item-list;).appendChild(li);
+  document.getElementById('item-list').appendChild(li);
 }
 
 /**
@@ -32,7 +32,7 @@ function highlightParagraph() {
  * Selects the element with the id 'to-be-removed' and removes it from the DOM.
  */
 function removeElement() {
-  document.getElemetById('to-be-removed').remove();
+  document.getElementById('to-be-removed').remove();
 }
 
 
